@@ -1,6 +1,7 @@
 // 1. Write your functions here
 function line(lineArr){
     let lineStr = "";
+    let num = 0;
     if (lineArr.length === 0){
         return lineStr = "The line is currently empty."
     } else{
